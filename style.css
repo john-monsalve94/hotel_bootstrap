@@ -1,0 +1,327 @@
+/* ....................navbar.................................. */
+i{
+  color: rgb(90,162,225,.8);
+    font-size: 20px;
+}
+.navbar-collapse{
+    align-items: center;
+    
+}
+.icon-link{
+    margin-left: 20px;
+}
+.nav-link{
+    font-weight: 600;
+}
+@media screen and (min-width: 768px) {
+    .store-icon {
+        display: none;
+
+      
+        
+    }
+}
+@media screen and (max-width: 768px) {
+    .store-icon2 {
+        display: none;
+        
+    }
+
+}
+.btn{
+  color: rgb(0, 0, 0);
+  border-color: #fff;
+  background-color: rgb(90,162,225,.8);
+}
+.logo-texto{
+  font-family: 'Fjalla One', sans-serif;
+  color: rgb(77, 75, 75);
+
+}
+
+/* ....................navbar (end).................................. */
+/*------------------------------------- hero----------------------------- */
+h1{
+  font-size: medium;
+}
+.hero{
+    min-height: 200px;
+    text-align: center;
+}
+
+.texto-naranja{
+    color: rgb(90,162,225);
+}
+.text-portada{
+
+width: 25%;
+
+flex-direction: column;
+position: absolute;
+right: 15%;
+top: 10%;
+
+font-family: 'Fjalla One', sans-serif;
+font-weight: 400;
+justify-content: start;
+
+
+
+}
+
+@media screen and (max-width: 576px) {
+    .text-portada-izq{
+
+        font-size: medium;
+    }
+}
+@media screen and (max-width: 576px){
+    .hero-imagen-portada{
+       display: none;
+       
+       
+    }
+    .text-portada{
+        position: relative;
+        width: 70%;
+        height: 70%;
+        right: auto;    
+        
+        background-color: rgba(235, 245, 245, 0.2);   
+    }
+    .text-portada h2{
+    color: rgba(0, 26, 255, 0.466);
+    }
+.hero-principal{
+  
+    background-image: url('images/habitaciones/vacaciones3.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+   
+    opacity: 85%;
+    justify-content: center;
+   }
+   .hero{
+   
+    height: 600px;
+   }
+   .ofertas-imagenes{
+    justify-content: center;
+   }
+}
+/*  ----------------------hero(end)-------------------------------   */
+/*  ----------------------funcionalidad-------------------------------   */
+.titulo-funcion h2{
+font-size: xx-large;
+}
+
+.categoria-funcion h2{
+    color: rgb(120, 150, 150);
+    font-size: medium;
+}
+/*  ----------------------funcionalidad(end)-------------------------------   */
+/* .boton-explora{
+  height: 90%;
+  flex-wrap: nowrap;
+  width: 100%;
+  display: flex;
+} */
+
+/* imagenes carrusel*/
+.carousel-item img {
+  width: 100%;
+ 
+  object-fit: cover; /* Ajusta la imagen para cubrir completamente el contenedor */
+  object-position: 20% 30%;
+}
+
+/* imagenes carrusel end*/
+.playa{
+ height: 50vh;
+}
+.playa img{
+  height: 100%;
+  width: 100%;
+  object-fit: none;
+  opacity: 70%;
+
+}
+/* beneficios */
+.titulo-funcion,.habitaciones, .ofertas div, h2{
+  color: rgb(45, 79, 230,.8);
+  font-size: xx-large;
+}
+h3{
+  font-size: large;
+  color: rgb(120, 150, 150);
+}
+/* beneficios (end)*/
+/* carussel */
+
+.carrusel{
+  display: flex;
+  flex-wrap: wrap;
+  
+}
+
+
+
+.carrusel img {  
+ border-radius: 5%;
+  transition: transform 0.3s ease-in-out;
+  padding: .1%;
+}
+
+.carrusel img:hover {
+  transform: scale(1.2);
+}
+
+
+/* carussel(end) */
+
+.roles{
+
+
+}
+/*-----------------------------------footer---------------------------------        */
+footer {
+  
+    
+     width: 100%;
+     background:linear-gradient(rgb(16, 67, 163), rgb(62, 62, 65,.4));
+     /* background: rgb(69, 175, 245); */
+     border-top: 3px solid rgb(69, 95, 245);
+   }
+   
+   /* Footer Top Start */
+   .footer-top {
+     display: flex;
+    
+     
+     
+     
+     
+   }
+   .col{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    
+   }
+   .footer-top{
+     flex-wrap: wrap;
+     width: 100%;
+     justify-content: center;
+     
+     
+   }
+   
+   .footer-top .col .head-title h2 {
+     color: #fff;
+     font-weight: 600;
+     font-size: large;
+     text-transform: uppercase;
+
+     position: relative;
+     cursor: pointer;
+   }
+   
+   .footer-top .col .head-title h2::after {
+     content: "";
+     width: 8%;
+     height: 3px;
+     background: rgb(245, 213, 69);
+     position: absolute;
+     left: 0;
+     bottom: -2px;
+     transition: 0.5s;
+   }
+   
+
+   .footer-top .col .contenedor p {
+     font-size: 14px;
+     color: #8d99ae;
+    
+     
+   }
+   
+   .footer-top .col .contenedor ul li {
+     list-style: none;
+     
+   }
+   .footer-top .col .contenedor ul{
+    padding-left: 0;
+   }
+   .footer-top .col .contenedor ul li a {
+     text-decoration: none;
+     color: #ffffff;
+     
+
+   }
+   
+   .footer-top .col .contenedor ul li a:hover {
+     color: rgb(245, 213, 69);
+   }
+   
+   .footer-top .col .contenedor ul li a i {
+     color: rgb(245, 213, 69);
+     
+   }
+   /* Footer Top Start */
+   
+   /* Footer Bottom Start */
+   .footer-bottom {
+     background:linear-gradient(rgba(46, 46, 216, 0.11), rgba(26, 24, 167, 0.2));
+     font-size: 16px;
+     color: #ffffff;
+     width: 100%;
+   }
+   
+   .footer-bottom .payment-method ul {
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     text-align: center;
+   }
+   
+   .footer-bottom .payment-method li {
+     list-style: none;
+     margin: 0 5px;
+     padding: 10px 0;
+   }
+   
+   .footer-bottom .payment-method li i {
+     font-size: 32px;
+     color: #ffffff;
+     cursor: pointer;
+     transition: transform 0.5s;
+   }
+   
+   .footer-bottom .payment-method li i:hover {
+     color: rgb(247, 247, 247);
+     transform: scale(1.1);
+   }
+   
+   .footer-bottom .copyright p {
+     text-align: center;
+     font-size: 16px;
+     padding-top: 10px;
+   }
+   
+   .footer-bottom .copyright i {
+     color: rgb(245, 213, 69);
+   }
+   
+   .footer-bottom .copyright a {
+     color: #fffcfc;
+     text-decoration: none;
+   }
+   
+   .footer-bottom .copyright a:hover {
+     color: rgb(245, 213, 69);
+   }
+   /* Footer Bottom End*/
+   
+   /* Device Responsive Start */
